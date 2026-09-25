@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{--bg:#100b07;--card:#1b120c;--gold:#e0b653;--muted:#c9bba7}
+*{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:radial-gradient(circle at 50% -10%,#3a2410 0,#100b07 42%,#090604 100%);color:#fff8ed;font-family:Arial,Helvetica,sans-serif}
+.container{width:min(1120px,92%);margin:auto}.glass{background:rgba(30,18,10,.78);border:1px solid rgba(224,182,83,.2);backdrop-filter:blur(14px)}
+.gold{color:var(--gold)} .muted{color:var(--muted)}
+.heroGlow{box-shadow:0 0 90px rgba(224,182,83,.13)}
+.card{transition:.25s}.card:hover{transform:translateY(-4px);border-color:rgba(224,182,83,.5)}
+button{cursor:pointer}
